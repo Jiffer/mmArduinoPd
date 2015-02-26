@@ -46,6 +46,8 @@ mine is 4;
 #X text 396 324 out 2;
 #X text 79 338 this determines the;
 #X text 79 351 order they are sent;
+#X text 57 468 by Jiffer Harriman;
+#X text 56 482 Creative Commons Open Source;
 #X connect 0 0 18 0;
 #X connect 1 0 18 0;
 #X connect 2 0 18 0;

@@ -37,6 +37,8 @@ mine is 4;
 #X text 702 170 <- output #;
 #X msg 665 173 1;
 #X msg 564 175 0;
+#X text 87 354 by Jiffer Harriman;
+#X text 86 368 Creative Commons Open Source;
 #X connect 0 0 6 0;
 #X connect 1 0 6 0;
 #X connect 2 0 6 0;

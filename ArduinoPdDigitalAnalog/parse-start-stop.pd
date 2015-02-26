@@ -20,6 +20,8 @@
 #X obj 228 121 t f f f f;
 #X text 326 473 send bang when new group is starting;
 #X obj 157 155 sel \$1 \$2;
+#X text 44 536 by Jiffer Harriman;
+#X text 43 550 Creative Commons Open Source;
 #X connect 0 0 17 0;
 #X connect 0 0 6 0;
 #X connect 1 0 17 0;

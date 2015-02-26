@@ -78,7 +78,7 @@ outlet for each value you are sending between begin/end chars;
 #X connect 14 0 6 0;
 #X connect 14 1 4 1;
 #X restore 163 265 pd read_analog;
-#N canvas 95 274 761 439 read_digital 1;
+#N canvas 95 274 761 439 read_digital 0;
 #X obj 167 61 inlet;
 #X obj 156 319 outlet;
 #X obj 229 319 outlet;
@@ -156,13 +156,13 @@ mine is 4;
 #X text 116 60 <- click to list the devices available;
 #X msg 166 168 info;
 #X obj 220 202 route open;
-#X obj 220 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 220 223 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 76 140 r toArduino;
 #X obj 420 409 f;
 #X obj 506 409 f;
 #X obj 581 407 f;
-#X obj 362 300 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 362 300 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 435 354 5 0 0 0 - - -;
 #X floatatom 520 354 5 0 0 0 - - -;
@@ -190,6 +190,8 @@ mine is 4;
 #X obj 164 108 loadbang;
 #X obj 167 129 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
+#X text 29 458 by Jiffer Harriman;
+#X text 28 472 Creative Commons Open Source;
 #X connect 0 0 35 0;
 #X connect 0 0 37 0;
 #X connect 1 0 35 0;

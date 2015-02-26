@@ -4,6 +4,7 @@
 // NOTE: all the data sent to Pd uses Serial.println()
 //
 // Jiffer Harriman
+// These files are licensed under a Creative Commons Attribution Share-Alike license
 // modular-muse.com
 //////////////////////////////////////
 

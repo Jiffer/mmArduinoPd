@@ -79,7 +79,7 @@ outlet for each value you are sending between begin/end chars;
 mine is 4;
 #X text 116 60 <- click to list the devices available;
 #X obj 166 212 route open;
-#X obj 166 233 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 166 233 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 74 361 5 0 0 0 - - -;
 #X floatatom 116 360 5 0 0 0 - - -;
@@ -106,6 +106,8 @@ down;
 #X connect 3 0 1 0;
 #X restore 89 166 pd reportInfo;
 #X text 175 165 <- just keeps track of if its connected;
+#X text 49 454 by Jiffer Harriman;
+#X text 48 468 Creative Commons Open Source;
 #X connect 0 0 14 0;
 #X connect 1 0 14 0;
 #X connect 2 0 14 0;
