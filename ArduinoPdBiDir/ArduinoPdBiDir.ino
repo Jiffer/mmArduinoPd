@@ -64,7 +64,7 @@ void loop() {
   // send a 'A' to indicate analog data packet start
   Serial.println('A');
   // loop through all the analog pins.
-  for (int i = 0; i < numDigitals; i++)
+  for (int i = 0; i < numAnalogs; i++)
   { // read the value and send it to the serial port
     Serial.println(analogRead(analogPins[i]));
   }
